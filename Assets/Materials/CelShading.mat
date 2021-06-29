@@ -88,9 +88,13 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _FalloffAmount: 0.01
+    - _FresnelPower: 30
+    - _FresnelSize: 0.05
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LightingCutoff: 0.01
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -104,11 +108,15 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - _AmbientColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
     - _AmbientLight: {r: 0.078431346, g: 0.078431346, b: 0.078431346, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseColor: {r: 1, g: 0, b: 0.52548313, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2632719119770988382
 MonoBehaviour:
