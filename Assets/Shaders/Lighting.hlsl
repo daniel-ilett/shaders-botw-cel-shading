@@ -38,8 +38,8 @@ void AdditionalLight_float(float3 WorldPos, int Index, out float3 Direction, out
 {
     Direction = normalize(float3(0.5f, 0.5f, 0.25f));
     Color = float3(0.0f, 0.0f, 0.0f);
-    DistanceAtten = 1.0f;
-    ShadowAtten = 1.0f;
+    DistanceAtten = 0.0f;
+    ShadowAtten = 0.0f;
 
 #ifndef SHADERGRAPH_PREVIEW
     int pixelLightCount = GetAdditionalLightsCount();

@@ -78,6 +78,7 @@ Material:
     m_Floats:
     - USE_ADDITIONAL_LIGHTS: 1
     - _AlphaClip: 0
+    - _AmbientStrength: 0.1
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
