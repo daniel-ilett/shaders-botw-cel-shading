@@ -402,10 +402,14 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8d0e691f5d17b9a43a7dd50c90070127, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 32c3133fe7ab0f8409c4b094428c2c9e, type: 2}
+      objectReference: {fileID: 2100000, guid: cabeecac209971d4b9c7c20fbe42b1a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 8d0e691f5d17b9a43a7dd50c90070127, type: 3}
       propertyPath: m_Name
       value: Torus
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8d0e691f5d17b9a43a7dd50c90070127, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d0e691f5d17b9a43a7dd50c90070127, type: 3}
@@ -460,7 +464,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 32c3133fe7ab0f8409c4b094428c2c9e, type: 2}
+  - {fileID: 2100000, guid: cabeecac209971d4b9c7c20fbe42b1a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -732,6 +736,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665423900}
     m_Modifications:
+    - target: {fileID: 1574636763986576, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4354465822509128, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -981,10 +989,14 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 80e8dc5cf1fdb3240b3e64b20e0de680, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 32c3133fe7ab0f8409c4b094428c2c9e, type: 2}
+      objectReference: {fileID: 2100000, guid: cabeecac209971d4b9c7c20fbe42b1a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 80e8dc5cf1fdb3240b3e64b20e0de680, type: 3}
       propertyPath: m_Name
       value: Suzanne
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80e8dc5cf1fdb3240b3e64b20e0de680, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e8dc5cf1fdb3240b3e64b20e0de680, type: 3}
